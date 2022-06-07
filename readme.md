@@ -57,11 +57,10 @@ After Login, you can pass the jwt via the Authorization header on a http request
 # This project contains:
 - EntityFramework
 - FirstCode approach
-- .Net Dependency Injection
 - Authentication
 - Authorization
 - Inheritence Entities
-- Linq quaries
+- Linq
 - DTO (Data Transfer Object)
 - Middleware
 

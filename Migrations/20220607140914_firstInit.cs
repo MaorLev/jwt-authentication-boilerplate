@@ -2,7 +2,7 @@
 
 namespace jwt_authentication_boilerplate.Migrations
 {
-    public partial class initial : Migration
+    public partial class firstInit : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -93,7 +93,7 @@ namespace jwt_authentication_boilerplate.Migrations
             migrationBuilder.InsertData(
                 table: "Users",
                 columns: new[] { "Id", "Discriminator", "FirstName", "LastName", "Mail", "Password", "RoleId" },
-                values: new object[] { 3, "Admin", "admin", "sdsd", "csdcdc", "123456", 1 });
+                values: new object[] { 3, "Admin", "admin", "sdsd", "admin@gmail.com", "123456", 1 });
 
             migrationBuilder.InsertData(
                 table: "ClaimData",

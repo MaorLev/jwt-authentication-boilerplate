@@ -9,8 +9,8 @@ using jwt_authentication_boilerplate.Data;
 namespace jwt_authentication_boilerplate.Migrations
 {
     [DbContext(typeof(DBContext))]
-    [Migration("20220603095758_initial")]
-    partial class initial
+    [Migration("20220607140914_firstInit")]
+    partial class firstInit
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -174,7 +174,7 @@ namespace jwt_authentication_boilerplate.Migrations
                             Id = 3,
                             FirstName = "admin",
                             LastName = "sdsd",
-                            Mail = "csdcdc",
+                            Mail = "admin@gmail.com",
                             Password = "123456",
                             RoleId = 1
                         });

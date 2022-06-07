@@ -34,7 +34,7 @@ namespace jwt_authentication_boilerplate.Data
             .HasForeignKey(c => c.UserId);
 
 
-            Admin adm = new Admin(3, "csdcdc", "admin", "sdsd", "123456", 1);
+            Admin adm = new Admin(3, "admin@gmail.com", "admin", "sdsd", "123456", 1);
             modelBuilder.Entity<Admin>().HasData(adm);
 
             ClaimData claim1adm = new ClaimData(7, "name", adm.FirstName, adm.Id);

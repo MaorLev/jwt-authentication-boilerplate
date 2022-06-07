@@ -172,7 +172,7 @@ namespace jwt_authentication_boilerplate.Migrations
                             Id = 3,
                             FirstName = "admin",
                             LastName = "sdsd",
-                            Mail = "csdcdc",
+                            Mail = "admin@gmail.com",
                             Password = "123456",
                             RoleId = 1
                         });

@@ -1,9 +1,9 @@
-# jwt-authentication-boilerplate
+# Api authentication boilerplate
 
 A .Net 3.1 WebApi boilerplate / template project.
 
 The goal of this project is to be a kickstart to your .Net WebApi, implementing the most common used patterns
-and technologies for a restful API in .net, making your work easier.
+and technologies for a restful API in .net, making your work easier and simple.
 
 
 # Prerequisites
@@ -12,7 +12,7 @@ and technologies for a restful API in .net, making your work easier.
 3. Download the Microsoft SQL Server.
 
 # How to run
-Define appsettings.json file to your connection string settings.
+Configure the appsettings.json file and adjust it to your settings.
 
 ## Run Migration and connect to SQL Server
 In PMC (package manager Console) or Dotnet Sdk cli,
@@ -28,7 +28,7 @@ You have some commands options to run:
 
 3. Update-Database -c DomainModelMsSqlServerContext
 
-- or -
+- or
 1. dotnet restore
 
 2. dotnet ef migrations add microsoftSql --context DomainModelMsSqlServerContext
